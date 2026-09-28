@@ -1,0 +1,16 @@
+Student Name: Anthony Imbufe
+GitHub Username: tonnierex001
+
+Authentication method I used: PAT
+
+Why I chose this method:
+I chose a Personal Access Token because it is quick to set up and it works over HTTPS without any extra key management. I can also scope it to only the permissions I need and revoke it easily if it ever leaks. That balance of simple setup and tight control made it the better fit for me right now.
+
+One security habit I must follow with this method:
+I must never paste my token into a chat, a screenshot, a commit, or any shared document. If the token ever leaks, I have to revoke it immediately on GitHub and generate a new one. Treating it like an ATM PIN keeps my account and repositories protected.
+
+Difference between a commit and a push:
+A commit saves a checkpoint of my staged changes into my local Git history on my computer. It works even when I am offline, and it does not touch GitHub at all. A push sends those local commits up to the remote repository on GitHub. Until I push, my teammates and the browser version of the repo cannot see my work. So a commit is a local save, and a push is the upload that shares it.
+
+My repository URL:
+https://github.com/tonnierex001/SE103-Week4
