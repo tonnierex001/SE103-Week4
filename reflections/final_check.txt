@@ -3,13 +3,13 @@ GitHub Username: tonnierex001
 Repository: SE103-Week4
 Repository URL: https://github.com/tonnierex001/SE103-Week4
 
+What I understand better about algorithms now:
+I understand now that an algorithm is more than a set of steps, it is a set of steps that names its input, its output, and the decisions that shape the path. I see how sequence, decision, and repetition combine to do real work, like counting only the values that pass a rule. I also see that the awkward cases, like an empty list or a missing name, belong inside the algorithm and not as an afterthought. Writing pseudocode forced me to say what I meant without hiding behind syntax. That clarity is what makes the logic testable, and it is what I was really missing before.
+
+How tracing changed my confidence:
+Tracing made me stop trusting my drafts just because they looked tidy. When I walked through each value one step at a time, I could see exactly where a condition fired and where it did not. That turned the algorithm from a guess into something I could actually check. It also showed me why the awkward cases matter, because the empty list trace behaved differently from the normal one. Now I feel much calmer about whether my logic works before I touch real code.
+
+One pseudocode habit I will keep:
+I will keep writing the empty-list check and the no-match branch before I write anything else. Handling the awkward cases early means the happy path is not the only thing my draft covers. I will also keep tracing with a small sample before calling a draft finished. That habit has caught real mistakes for me already.
+
 All required files are on main: Yes
-
-What a pull request asks teammates to do:
-A pull request asks teammates to review the changes on my branch before those changes join the shared main branch. It gives them a place to read the diff, leave comments, and ask questions. Only after that review is the work merged in.
-
-Why branches and pull requests are used together:
-Branches keep my work separate from main so it cannot break the shared version by accident. Pull requests are how that isolated work asks to be reviewed and merged, so nothing reaches main without a check. One without the other is incomplete collaboration: a branch with no pull request is hidden work, and a pull request with no branch has nothing to review.
-
-One thing that confused me in this project and how I solved it:
-I got confused when Git said I was already on main after I ran git switch main. I expected it to move somewhere, so I thought something was wrong. I looked at the message again and realized it just meant I had never left main, so there was nothing for the command to do. I confirmed my branch with git branch and then continued with git switch -c add-reflection. That taught me to read the message carefully instead of assuming an error.
