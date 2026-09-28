@@ -1,0 +1,26 @@
+Student Name: Anthony Imbufe
+
+Problem:
+Count how many numbers in a list are greater than 10.
+
+Input:
+a list of numbers
+
+Output:
+the count, or an error if the list is empty
+
+Pseudocode:
+START
+INPUT list of numbers
+IF the list is empty THEN
+    OUTPUT "Error: list is empty"
+ELSE
+    SET count TO 0
+    FOR each number IN the list
+        IF number > 10 THEN
+            SET count TO count + 1
+        END IF
+    END FOR
+    OUTPUT count
+END IF
+END

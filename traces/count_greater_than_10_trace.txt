@@ -1,0 +1,17 @@
+Student Name: Anthony Imbufe
+Sample Input: [4, 15, 10, 22, 8]
+
+Step-by-step trace:
+1. The list is not empty, so we skip the error branch and continue.
+2. Set count to 0.
+3. Look at 4. Is 4 > 10? No. count stays at 0.
+4. Look at 15. Is 15 > 10? Yes. count becomes 1.
+5. Look at 10. Is 10 > 10? No. count stays at 1.
+6. Look at 22. Is 22 > 10? Yes. count becomes 2.
+7. Look at 8. Is 8 > 10? No. count stays at 2.
+8. The list is finished, so we output count.
+
+Final output: 2
+
+Empty list input: []
+Empty list result: Error: list is empty
