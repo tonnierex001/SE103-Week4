@@ -1,0 +1,41 @@
+Student Name: Anthony Imbufe
+
+Problem:
+Every morning before I start my online classes at the Frontier Institute of Technology, I need to prepare my study space and check what work is due so I can start on the right task.
+
+Input:
+My laptop and charger, my class dashboard, my list of pending milestones and deadlines, and a quiet place to sit.
+
+Output:
+A ready study setup with my laptop charged, my dashboard open, and one clear task chosen to work on first.
+
+Edge Case Handled:
+If my laptop battery is below 30 percent, I plug it in before starting so I do not lose power in the middle of a task. If there is no task due soon, I switch to the nearest upcoming deadline instead of wasting the session.
+
+Pseudocode:
+START
+INPUT laptop, charger, dashboard, deadline list
+IF laptop battery is below 30 percent THEN
+    PLUG IN charger
+ELSE
+    CONTINUE on battery
+END IF
+OPEN dashboard
+READ list of pending milestones and deadlines
+IF a milestone is due today or tomorrow THEN
+    SET today_task TO that milestone
+ELSE
+    SET today_task TO the task with the nearest deadline
+END IF
+IF the deadline list is empty THEN
+    OUTPUT "no tasks due, review notes or rest"
+ELSE
+    WORK on today_task in focused blocks
+    SAVE progress
+    UPDATE task list for tomorrow
+    OUTPUT "study session complete"
+END IF
+END
+
+Why this is clear enough to follow:
+Every step names a specific action, so there is no guessing about what to do next. The two IF/ELSE decisions cover the realistic branches, like a low battery or a task due soon, instead of only describing the easy path. The input and output are stated plainly, so a reader knows what must be ready and what the finished session looks like. The edge case handles both a low battery and an empty deadline list. Anyone reading this could follow the same steps and get the same result.
