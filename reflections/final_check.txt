@@ -3,6 +3,8 @@ GitHub Username: tonnierex001
 Repository: SE103-Week4
 Repository URL: https://github.com/tonnierex001/SE103-Week4
 
+All required files are on main: Yes
+
 What a pull request asks teammates to do:
 A pull request asks teammates to review the changes on my branch before those changes join the shared main branch. It gives them a place to read the diff, leave comments, and ask questions. Only after that review is the work merged in.
 
