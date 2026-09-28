@@ -1,0 +1,23 @@
+Student Name: Anthony Imbufe
+Name list: ["Ama", "Kofi", "Yaw"]
+
+Trace 1 - target "Kofi":
+1. The list is not empty, so we continue.
+2. Set found to FALSE.
+3. Look at "Ama". Is "Ama" equal to "Kofi"? No. found stays FALSE.
+4. Look at "Kofi". Is "Kofi" equal to "Kofi"? Yes. found becomes TRUE.
+5. Look at "Yaw". Is "Yaw" equal to "Kofi"? No. found stays TRUE.
+6. The list is finished. found is TRUE, so we output "Found".
+Result: Found
+
+Trace 2 - target "Efua":
+1. The list is not empty, so we continue.
+2. Set found to FALSE.
+3. Look at "Ama". Is "Ama" equal to "Efua"? No. found stays FALSE.
+4. Look at "Kofi". Is "Kofi" equal to "Efua"? No. found stays FALSE.
+5. Look at "Yaw". Is "Yaw" equal to "Efua"? No. found stays FALSE.
+6. The list is finished. found is FALSE, so we output "Not found".
+Result: Not found
+
+Empty list input: []
+Empty list result: Error: list is empty

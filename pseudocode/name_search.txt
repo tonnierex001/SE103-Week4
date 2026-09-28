@@ -1,0 +1,32 @@
+Student Name: Anthony Imbufe
+
+Problem:
+Search a list of names for one target name and report whether it was found.
+
+Input:
+- a list of names
+- one target name
+
+Output:
+- "Found" or "Not found"
+- or an error if the list is empty
+
+Pseudocode:
+START
+INPUT list of names, target name
+IF the list is empty THEN
+    OUTPUT "Error: list is empty"
+ELSE
+    SET found TO FALSE
+    FOR each name IN the list
+        IF name equals target THEN
+            SET found TO TRUE
+        END IF
+    END FOR
+    IF found is TRUE THEN
+        OUTPUT "Found"
+    ELSE
+        OUTPUT "Not found"
+    END IF
+END IF
+END
