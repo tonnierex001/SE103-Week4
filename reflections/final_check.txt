@@ -1,0 +1,13 @@
+Student Name: Anthony Imbufe
+GitHub Username: tonnierex001
+Repository: SE103-Week4
+Repository URL: https://github.com/tonnierex001/SE103-Week4
+
+What a pull request asks teammates to do:
+A pull request asks teammates to review the changes on my branch before those changes join the shared main branch. It gives them a place to read the diff, leave comments, and ask questions. Only after that review is the work merged in.
+
+Why branches and pull requests are used together:
+Branches keep my work separate from main so it cannot break the shared version by accident. Pull requests are how that isolated work asks to be reviewed and merged, so nothing reaches main without a check. One without the other is incomplete collaboration: a branch with no pull request is hidden work, and a pull request with no branch has nothing to review.
+
+One thing that confused me in this project and how I solved it:
+I got confused when Git said I was already on main after I ran git switch main. I expected it to move somewhere, so I thought something was wrong. I looked at the message again and realized it just meant I had never left main, so there was nothing for the command to do. I confirmed my branch with git branch and then continued with git switch -c add-reflection. That taught me to read the message carefully instead of assuming an error.
