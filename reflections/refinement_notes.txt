@@ -1,0 +1,10 @@
+Student Name: Anthony Imbufe
+
+Which phrases were too vague:
+The weak draft said "Get student scores," "Check them," "Find who failed," and "Show result." Each of these hides real decisions. "Check them" does not say what to check against, and "Find who failed" does not say what counts as failing. "Show result" does not say what to display or in what form.
+
+How I made each vague part specific:
+I replaced "Get student scores" with INPUT list of scores, so the source is named. I replaced "Check them" with a loop that reads one score at a time and a decision using the exact failing rule score < 50. I replaced "Find who failed" with ADD score TO failed_list, which collects each failing score as it is found. I replaced "Show result" with two explicit outputs: the list of failing scores, or the message "No one failed." I also added a check for an empty list so the algorithm does not run on nothing.
+
+Why refinement matters before coding:
+Vague steps force a teammate or my future self to guess what to do, and two readers could produce two different programs from the same draft. When the rules are written down, I can trace the logic by hand and catch mistakes before any syntax is involved. Refinement turns an intention into an instruction that produces the same result every time.

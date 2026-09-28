@@ -1,0 +1,33 @@
+Student Name: Anthony Imbufe
+
+Problem:
+Find which scores failed.
+
+Input:
+a list of student scores
+
+Output:
+the failing scores, or a message if no one failed
+
+Failing rule:
+score < 50
+
+Pseudocode:
+START
+INPUT list of scores
+IF the list is empty THEN
+    OUTPUT "Error: no scores to check"
+ELSE
+    SET failed_list TO empty list
+    FOR each score IN the list
+        IF score < 50 THEN
+            ADD score TO failed_list
+        END IF
+    END FOR
+    IF failed_list is empty THEN
+        OUTPUT "No one failed"
+    ELSE
+        OUTPUT failed_list
+    END IF
+END IF
+END
