@@ -10,7 +10,7 @@ Output:
 the failing scores, or a message if no one failed
 
 Failing rule:
-score < 50
+score < 511093565227
 
 Pseudocode:
 START
