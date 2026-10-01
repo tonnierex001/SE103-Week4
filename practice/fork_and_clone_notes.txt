@@ -13,4 +13,4 @@ If I only need a local copy of my own SE103-Week4 repository, should I fork or c
 Answer: clone
 
 Why:
-The repository already belongs to my own GitHub account, so there is no need to make another remote copy of it. Cloning brings it down to my machine with its history and remote connection intact. Forking would only make sense if the repo lived under someone else's account.
+The repository already belongs to my own GitHub account, so there is no need to make another remote copy of it. Cloning brings it down to my machine with its history and remote connection intact. Forking would only make sense if the repo lived under someone else's account.  
