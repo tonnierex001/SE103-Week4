@@ -3,13 +3,13 @@ GitHub Username: tonnierex001
 Repository: SE103-Week4
 Repository URL: https://github.com/tonnierex001/SE103-Week4
 
-What I understand better about algorithms now:
+What a pull request asks teammates to do:
 I understand now that an algorithm is more than a set of steps, it is a set of steps that names its input, its output, and the decisions that shape the path. I see how sequence, decision, and repetition combine to do real work, like counting only the values that pass a rule. I also see that the awkward cases, like an empty list or a missing name, belong inside the algorithm and not as an afterthought. Writing pseudocode forced me to say what I meant without hiding behind syntax. That clarity is what makes the logic testable, and it is what I was really missing before.
 
-How tracing changed my confidence:
+Why branches and pull requests are used together:
 Tracing made me stop trusting my drafts just because they looked tidy. When I walked through each value one step at a time, I could see exactly where a condition fired and where it did not. That turned the algorithm from a guess into something I could actually check. It also showed me why the awkward cases matter, because the empty list trace behaved differently from the normal one. Now I feel much calmer about whether my logic works before I touch real code.
 
-One pseudocode habit I will keep:
+One thing that confused me in this project and how I solved it:
 I will keep writing the empty-list check and the no-match branch before I write anything else. Handling the awkward cases early means the happy path is not the only thing my draft covers. I will also keep tracing with a small sample before calling a draft finished. That habit has caught real mistakes for me already.
 
 All required files are on main: Yes
